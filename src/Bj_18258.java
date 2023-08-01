@@ -11,38 +11,58 @@ public class Bj_18258 {
 //        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 
         Queue<Integer> queue = new LinkedList<>();
-
+        Queue<Integer> result = new LinkedList<>();
 
         int n = Integer.parseInt(br.readLine());
+
         for (int i = 0; i < n; i++) {
             String str = br.readLine();
             StringTokenizer st = new StringTokenizer(str, " ");
             switch (st.nextToken()) {
                 case "push":
                     queue.add(Integer.parseInt(st.nextToken()));
+//                    System.out.println(queue);
                     break;
 
                 case "front":
-                    System.out.println(queue.peek());
+                    result.add(queue.peek());
+//                    System.out.println(queue);
                     break;
 
                 case "pop":
-                    if (queue.isEmpty()) System.out.println(-1);
-                    else queue.remove();
+                    if (queue.isEmpty()) result.add(-1);
+                    else {
+                        result.add(queue.peek());
+                        queue.remove();
+                    }
+//                    System.out.println(queue);
                     break;
 
                 case "back"://queue 메소드에는맨 뒤 데이터를 확인하는 방법이 없음
-
+                    Queue<Integer> temp = new LinkedList<>(queue);
+//                    System.out.println(queue);
+                    while(temp.size() != 1){
+                        temp.remove();
+                    }
+                    result.add(temp.peek());
+//                    System.out.println(queue);
                     break;
 
                 case "size":
-                    System.out.println(queue.size());;
+                    result.add(queue.size());
+//                    System.out.println(queue);
                     break;
 
                 case "empty":
-                    System.out.println(queue.isEmpty());
+                    if (queue.isEmpty()) result.add(1);
+                    else result.add(0);
+//                    System.out.println(queue);
                     break;
             }
+        }
+        while(!result.isEmpty()) {
+            System.out.println(result.peek());
+            result.remove();
         }
 
     }
