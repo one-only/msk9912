@@ -1,3 +1,5 @@
+package day0727;
+
 import java.util.Scanner;
 //3단 피보나치
 public class Bj_9095 {

@@ -1,3 +1,5 @@
+package day0727;
+
 import java.util.Scanner;
 //동전0
 public class Bj_11047 {

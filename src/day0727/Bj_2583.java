@@ -1,3 +1,5 @@
+package day0727;
+
 import java.util.Scanner;
 
 public class Bj_2583 {
