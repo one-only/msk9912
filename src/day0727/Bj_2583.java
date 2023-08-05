@@ -1,7 +1,7 @@
 package day0727;
 
 import java.util.Scanner;
-
+// bfs/dfs 영역구하기
 public class Bj_2583 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
