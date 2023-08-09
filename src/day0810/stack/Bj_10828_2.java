@@ -1,4 +1,4 @@
-package day0810;
+package day0810.stack;
 
 import java.io.*;
 import java.util.Stack;

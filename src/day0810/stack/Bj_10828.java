@@ -1,4 +1,4 @@
-package day0810;
+package day0810.stack;
 
 import java.io.BufferedReader;
 import java.io.IOException;
