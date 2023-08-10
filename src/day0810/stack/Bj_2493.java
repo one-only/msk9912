@@ -8,7 +8,7 @@ import java.util.Stack;
 import java.util.StringTokenizer;
 
 // 스택 탑
-// 몰라
+// 몰라 어려워 악
 public class Bj_2493 {
     public static void main(String[] args)  throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
