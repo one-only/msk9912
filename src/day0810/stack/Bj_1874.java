@@ -9,6 +9,7 @@ import java.util.Stack;
 // 스택 수열
 // 백준에서 틀렸다 나옴 대체 왜지
 //re
+//test
 public class Bj_1874 {
     public static void main(String[] args)  throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
