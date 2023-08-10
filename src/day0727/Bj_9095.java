@@ -3,6 +3,7 @@ package day0727;
 import java.util.Scanner;
 // 다이나믹 123
 // 3단 피보나치
+//re
 public class Bj_9095 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
