@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Stack;
 
 // 스택 제로
+// re
 public class Bj_10773 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

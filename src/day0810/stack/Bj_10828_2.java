@@ -3,6 +3,7 @@ package day0810.stack;
 import java.io.*;
 import java.util.Stack;
 
+//re
 // 10828번 스택
 public class Bj_10828_2 {
     public static void main(String[] args) throws IOException {
