@@ -3,7 +3,7 @@ package day0824;
 import java.io.*;
 import java.util.HashMap;
 import java.util.StringTokenizer;
-
+//비밀번호 찾기
 public class Bj_17219 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
