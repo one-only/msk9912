@@ -1,4 +1,4 @@
-package day0824;
+package day0824.hash;
 
 import java.io.*;
 import java.util.HashMap;

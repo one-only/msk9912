@@ -1,9 +1,9 @@
-package day0824;
+package day0824.hash;
 
 import java.io.*;
 import java.util.HashMap;
 import java.util.StringTokenizer;
-
+//패션왕 신해빈
 public class Bj_9375 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
