@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 //예지님 코드 참고
+//re
 public class Bj_1158_2 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
