@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//re
 public class Bj_10828_1 {
     // int 배열 생성
     public static int[] stack;

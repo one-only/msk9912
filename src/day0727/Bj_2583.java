@@ -6,6 +6,7 @@ import java.util.Scanner;
 // https://dding9code.tistory.com/6
 // https://yongku.tistory.com/entry/%EB%B0%B1%EC%A4%80-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%B0%B1%EC%A4%80-2583%EB%B2%88-%EC%98%81%EC%97%AD-%EA%B5%AC%ED%95%98%EA%B8%B0-%EC%9E%90%EB%B0%94Java
 // 위 두 링크 참고함
+//re
 public class Bj_2583 {
     static Scanner sc = new Scanner(System.in);
     static int M = sc.nextInt();
