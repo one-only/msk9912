@@ -1,4 +1,4 @@
-package day0831;
+package day0831.simulation;
 
 import java.io.*;
 import java.util.LinkedList;
