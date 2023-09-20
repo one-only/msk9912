@@ -33,13 +33,21 @@ public class Bj_10815 {
         }
 
 
-        for (String temp : strM) {
+//        for (String temp : strM) {
+//            if(strN.contains(temp)) {
+//                bw.write("1 ");
+//            } else bw.write("0 ");
+//        }
+
+        for (int i = 0; i < M; i++) {
+            String temp = strM.get(i);
             if(strN.contains(temp)) {
                 bw.write("1 ");
             } else bw.write("0 ");
         }
 
-
+        br.close();
         bw.flush();
+        bw.close();
     }
 }
