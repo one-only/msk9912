@@ -2,6 +2,7 @@ package day0727;
 
 import java.util.Scanner;
 //동전0
+//re
 public class Bj_11047 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
