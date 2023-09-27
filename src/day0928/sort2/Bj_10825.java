@@ -23,7 +23,7 @@ public class Bj_10825 {
 
         }
 
-        Arrays.sort(arr,new Comparator<String[]>(){
+        Arrays.sort(arr,new Comparator<String[]>(){ // 이런거 처음 써봄
             @Override
             public int compare(String[] o1, String[] o2){
                 if(o2[1].equals(o1[1])){
