@@ -1,4 +1,4 @@
-package day0921;
+package day0921.binarySearch;
 
 import java.io.*;
 import java.util.StringTokenizer;

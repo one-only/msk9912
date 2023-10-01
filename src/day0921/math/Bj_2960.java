@@ -1,4 +1,4 @@
-package day0921;
+package day0921.math;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -3,6 +3,7 @@ package day0928.sort2;
 import java.io.*;
 import java.util.Arrays;
 
+//접미사 배열
 public class Bj_11656 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

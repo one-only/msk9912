@@ -1,4 +1,4 @@
-package day0727;
+package day0727.BFS;
 
 import java.util.ArrayList;
 import java.util.Scanner;
