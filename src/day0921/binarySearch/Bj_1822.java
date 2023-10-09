@@ -1,9 +1,10 @@
-package day0921;
+package day0921.binarySearch;
 
 import java.io.*;
 import java.util.StringTokenizer;
 import java.util.TreeSet;
 
+// 차집합
 public class Bj_1822 {
     public static void main(String[] args) throws IOException {
 

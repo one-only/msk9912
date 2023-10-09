@@ -1,8 +1,9 @@
-package day0921;
+package day0921.binarySearch;
 
 import java.io.*;
 import java.util.*;
 
+// 시간 초과
 public class Bj_10815 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -25,6 +26,8 @@ public class Bj_10815 {
         int M = Integer.parseInt(st.nextToken());
 
         List<String> strM = new ArrayList<>();
+        // hashset은 key값을 이용해 검색하므로 시간복잡도가 훨씬 낮음
+        // list는 전체탐색이라 오래 걸림
 
         st = new StringTokenizer(br.readLine());
 
