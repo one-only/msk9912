@@ -5,9 +5,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//로또
 public class Bj_6603 {
 
-    static int n;
+    static int k;
     static int[] arr;
     static boolean[] visit;
     static int[] result;
@@ -19,7 +20,7 @@ public class Bj_6603 {
         while (true) {
             StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 
-            int k = Integer.parseInt(st.nextToken());
+            k = Integer.parseInt(st.nextToken());
             if (k == 0) break;
 
             arr = new int[k];
@@ -29,7 +30,7 @@ public class Bj_6603 {
             }
 
             result = new int[6];
-            visit = new boolean[n];
+            visit = new boolean[k];
             back(0, 0);
 
             System.out.println(sb);
@@ -47,7 +48,7 @@ public class Bj_6603 {
             return;
         }
 
-        for (int i = start; i < n; i++) {
+        for (int i = start; i < k; i++) {
             if (!visit[i]) {
                 visit[i] = true;
                 result[depth] = arr[i];
