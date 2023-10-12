@@ -1,4 +1,4 @@
-package day1012;
+package day1012.greedy;
 
 import java.io.IOException;
 import java.io.BufferedReader;
