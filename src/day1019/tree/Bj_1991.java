@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
+//트리순회
 public class Bj_1991 {
     static class Node {
         int left;
