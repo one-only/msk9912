@@ -28,6 +28,8 @@ public class Bj_1764 {
             }
         }
 
+        //treeset은 자동으로 정렬해주는 특징을 갖고 있음
+        //ArrayList 대신에 treeset 한번 써보기
         Collections.sort(res);
         System.out.println(res.size());
         for (String s : res) {
